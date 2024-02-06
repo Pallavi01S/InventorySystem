@@ -1,0 +1,772 @@
+CRITICAL - 2022-12-25 02:45:04 --> Call to undefined function css_url()
+in APPPATH/Views/login.php on line 3.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Auth.php(9): view('login')
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Auth->index()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 02:46:32 --> Undefined variable $site
+in APPPATH/Views/login.php on line 6.
+ 1 APPPATH/Views/login.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $site', 'APPPATH/Views/login.php', 6)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH/Controllers/Auth.php(9): view('login')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Auth->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 02:47:25 --> Undefined variable $site_info
+in APPPATH/Views/login.php on line 6.
+ 1 APPPATH/Views/login.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $site_info', 'APPPATH/Views/login.php', 6)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH/Controllers/Auth.php(9): view('login')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Auth->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 02:47:51 --> Undefined variable $site_info
+in APPPATH/Views/login.php on line 33.
+ 1 APPPATH/Views/login.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $site_info', 'APPPATH/Views/login.php', 33)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH/Controllers/Auth.php(9): view('login')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Auth->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 02:48:22 --> Undefined variable $error
+in APPPATH/Views/login.php on line 38.
+ 1 APPPATH/Views/login.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'APPPATH/Views/login.php', 38)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH/Controllers/Auth.php(9): view('login')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Auth->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 02:48:23 --> Undefined variable $error
+in APPPATH/Views/login.php on line 38.
+ 1 APPPATH/Views/login.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'APPPATH/Views/login.php', 38)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH/Controllers/Auth.php(9): view('login')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Auth->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 02:57:24 --> Undefined variable $error
+in APPPATH/Views/login.php on line 38.
+ 1 APPPATH/Views/login.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'APPPATH/Views/login.php', 38)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH/Controllers/Auth.php(9): view('login')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Auth->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 02:57:25 --> Undefined variable $error
+in APPPATH/Views/login.php on line 38.
+ 1 APPPATH/Views/login.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $error', 'APPPATH/Views/login.php', 38)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/login.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 5 APPPATH/Controllers/Auth.php(9): view('login')
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Auth->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 02:57:48 --> Call to undefined function set_value()
+in APPPATH/Views/login.php on line 46.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Auth.php(10): view('login', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Auth->index()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 02:58:49 --> Call to undefined function set_value()
+in APPPATH/Views/login.php on line 46.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('login', [], true)
+ 4 APPPATH/Controllers/Auth.php(10): view('login', [...])
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Auth->index()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 03:10:44 --> Undefined property: App\Controllers\Auth::$form_validation
+in APPPATH/Controllers/Auth.php on line 12.
+ 1 APPPATH/Controllers/Auth.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$form_validation', 'APPPATH/Controllers/Auth.php', 12)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Auth->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 03:11:57 --> Undefined property: App\Controllers\Auth::$form_validation
+in APPPATH/Controllers/Auth.php on line 14.
+ 1 APPPATH/Controllers/Auth.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$form_validation', 'APPPATH/Controllers/Auth.php', 14)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Auth->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 03:13:34 --> trim(): Passing null to parameter #1 ($string) of type string is deprecated
+in SYSTEMPATH/Validation/Validation.php on line 302.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8192, 'trim(): Passing null to parameter #1 ($string) of type string is deprecated', 'SYSTEMPATH/Validation/Validation.php', 302)
+ 2 SYSTEMPATH/Validation/Validation.php(302): trim(null)
+ 3 SYSTEMPATH/Validation/Validation.php(175): CodeIgniter\Validation\Validation->processRules('password', 'Password', null, [...], [...])
+ 4 APPPATH/Controllers/Auth.php(17): CodeIgniter\Validation\Validation->run()
+ 5 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Auth->index()
+ 6 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 7 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 03:19:52 --> Undefined property: App\Controllers\Auth::$session
+in APPPATH/Controllers/Auth.php on line 33.
+ 1 APPPATH/Controllers/Auth.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Auth::$session', 'APPPATH/Controllers/Auth.php', 33)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Auth->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Auth))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 04:06:49 --> Call to undefined function App\Controllers\dashboard()
+in APPPATH/Controllers/Dashboard.php on line 17.
+ 1 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 2 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 3 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 04:07:07 --> Undefined property: App\Controllers\Dashboard::$session
+in APPPATH/Controllers/Dashboard.php on line 20.
+ 1 APPPATH/Controllers/Dashboard.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$session', 'APPPATH/Controllers/Dashboard.php', 20)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 04:07:59 --> Undefined property: App\Controllers\Dashboard::$session
+in APPPATH/Controllers/Dashboard.php on line 21.
+ 1 APPPATH/Controllers/Dashboard.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Dashboard::$session', 'APPPATH/Controllers/Dashboard.php', 21)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+ERROR - 2022-12-25 04:08:46 --> mysqli_sql_exception: Not unique table/alias: 'documents' in /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/saravanadev/amodha/inventory-management/app/Controllers/Dashboard.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+#6 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/saravanadev/amodha/inventory-management/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/saravana...')
+#10 {main}
+CRITICAL - 2022-12-25 04:08:46 --> Not unique table/alias: 'documents'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = :patient_id:', [...], false)
+ 5 APPPATH/Controllers/Dashboard.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+ERROR - 2022-12-25 04:09:37 --> mysqli_sql_exception: Not unique table/alias: 'documents' in /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/saravanadev/amodha/inventory-management/app/Controllers/Dashboard.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+#6 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/saravanadev/amodha/inventory-management/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/saravana...')
+#10 {main}
+CRITICAL - 2022-12-25 04:09:37 --> Not unique table/alias: 'documents'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = :patient_id:', [...], false)
+ 5 APPPATH/Controllers/Dashboard.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+ERROR - 2022-12-25 04:09:38 --> mysqli_sql_exception: Not unique table/alias: 'documents' in /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/saravanadev/amodha/inventory-management/app/Controllers/Dashboard.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+#6 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/saravanadev/amodha/inventory-management/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/saravana...')
+#10 {main}
+CRITICAL - 2022-12-25 04:09:38 --> Not unique table/alias: 'documents'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = :patient_id:', [...], false)
+ 5 APPPATH/Controllers/Dashboard.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+ERROR - 2022-12-25 04:09:39 --> mysqli_sql_exception: Not unique table/alias: 'documents' in /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/saravanadev/amodha/inventory-management/app/Controllers/Dashboard.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+#6 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/saravanadev/amodha/inventory-management/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/saravana...')
+#10 {main}
+CRITICAL - 2022-12-25 04:09:39 --> Not unique table/alias: 'documents'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = \'1\'', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = \'1\'')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = \'1\'')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `documents`, `documents`
+WHERE `patient_id` = :patient_id:', [...], false)
+ 5 APPPATH/Controllers/Dashboard.php(21): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 04:10:45 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/template.php on line 177.
+ 1 APPPATH/Views/template.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH/Views/template.php', 177)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(23): view('template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 04:10:46 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/template.php on line 177.
+ 1 APPPATH/Views/template.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH/Views/template.php', 177)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(23): view('template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 04:10:46 --> Undefined property: CodeIgniter\View\View::$load
+in APPPATH/Views/template.php on line 177.
+ 1 APPPATH/Views/template.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$load', 'APPPATH/Views/template.php', 177)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 5 APPPATH/Controllers/Dashboard.php(23): view('template', [...])
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 04:11:20 --> Invalid file: dashboard/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/index.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 3 APPPATH/Views/template.php(177): view('dashboard/index')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 7 APPPATH/Controllers/Dashboard.php(23): view('template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 04:11:21 --> Invalid file: dashboard/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/index.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 3 APPPATH/Views/template.php(177): view('dashboard/index')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 7 APPPATH/Controllers/Dashboard.php(23): view('template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 04:12:17 --> Invalid file: dashboard/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/index.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 3 APPPATH/Views/template.php(177): view('dashboard/index')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 7 APPPATH/Controllers/Dashboard.php(23): view('template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 04:12:18 --> Invalid file: dashboard/index.php
+in SYSTEMPATH/Exceptions/FrameworkException.php on line 33.
+ 1 SYSTEMPATH/View/View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('dashboard/index.php')
+ 2 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard/index', [], true)
+ 3 APPPATH/Views/template.php(177): view('dashboard/index')
+ 4 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 5 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 6 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 7 APPPATH/Controllers/Dashboard.php(23): view('template', [...])
+ 8 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 9 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+10 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 04:13:09 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH/Views/dashboard.php on line 13.
+ 1 APPPATH/Views/dashboard.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH/Views/dashboard.php', 13)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Views/template.php(177): view('dashboard')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH/Controllers/Dashboard.php(23): view('template', [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 04:17:21 --> Call to undefined method CodeIgniter\Session\Session::setFlashdat()
+in APPPATH/Views/dashboard.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH/Views/template.php(177): view('dashboard')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 8 APPPATH/Controllers/Dashboard.php(23): view('template', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+10 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 04:17:22 --> Call to undefined method CodeIgniter\Session\Session::setFlashdat()
+in APPPATH/Views/dashboard.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH/Views/template.php(177): view('dashboard')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 8 APPPATH/Controllers/Dashboard.php(23): view('template', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+10 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 04:17:22 --> Call to undefined method CodeIgniter\Session\Session::setFlashdat()
+in APPPATH/Views/dashboard.php on line 13.
+ 1 SYSTEMPATH/View/View.php(213): include()
+ 2 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 4 APPPATH/Views/template.php(177): view('dashboard')
+ 5 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 6 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 7 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 8 APPPATH/Controllers/Dashboard.php(23): view('template', [...])
+ 9 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+10 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+11 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:28:08 --> Only variables should be passed by reference
+in APPPATH/Controllers/Dashboard.php on line 41.
+ 1 APPPATH/Controllers/Dashboard.php(41): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'APPPATH/Controllers/Dashboard.php', 41)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->add()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:29:12 --> Only variables should be passed by reference
+in APPPATH/Controllers/Dashboard.php on line 42.
+ 1 APPPATH/Controllers/Dashboard.php(42): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Only variables should be passed by reference', 'APPPATH/Controllers/Dashboard.php', 42)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->add()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:30:36 --> Array to string conversion
+in APPPATH/Controllers/Dashboard.php on line 44.
+ 1 APPPATH/Controllers/Dashboard.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH/Controllers/Dashboard.php', 44)
+ 2 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->add()
+ 3 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 4 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:30:48 --> The route for "http://localhost:8080/index.php/dashboard" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/index.php/dashboard')
+ 2 SYSTEMPATH/Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/Dashboard.php(53): redirect('http://localhost:8080/index.php/dashboard')
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->add()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:33:42 --> The route for "http://localhost:8080/index.php/dashboard" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/index.php/dashboard')
+ 2 SYSTEMPATH/Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/Dashboard.php(53): redirect('http://localhost:8080/index.php/dashboard')
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->add()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:44:03 --> Undefined variable $pending
+in APPPATH/Views/dashboard.php on line 51.
+ 1 APPPATH/Views/dashboard.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pending', 'APPPATH/Views/dashboard.php', 51)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Views/template.php(177): view('dashboard')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH/Controllers/Dashboard.php(29): view('template', [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:46:12 --> Undefined variable $pending
+in APPPATH/Views/dashboard.php on line 51.
+ 1 APPPATH/Views/dashboard.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pending', 'APPPATH/Views/dashboard.php', 51)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Views/template.php(177): view('dashboard')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH/Controllers/Dashboard.php(29): view('template', [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:46:28 --> Undefined variable $pending
+in APPPATH/Views/dashboard.php on line 51.
+ 1 APPPATH/Views/dashboard.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pending', 'APPPATH/Views/dashboard.php', 51)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Views/template.php(177): view('dashboard')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH/Controllers/Dashboard.php(30): view('template', [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:46:35 --> Undefined variable $pending
+in APPPATH/Views/dashboard.php on line 51.
+ 1 APPPATH/Views/dashboard.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pending', 'APPPATH/Views/dashboard.php', 51)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Views/template.php(177): view('dashboard')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH/Controllers/Dashboard.php(30): view('template', [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:48:47 --> Undefined variable $pending
+in APPPATH/Views/dashboard.php on line 51.
+ 1 APPPATH/Views/dashboard.php(51): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pending', 'APPPATH/Views/dashboard.php', 51)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Views/template.php(177): view('dashboard')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH/Controllers/Dashboard.php(29): view('template', [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 08:50:02 --> Undefined array key "prescription"
+in APPPATH/Views/dashboard.php on line 53.
+ 1 APPPATH/Views/dashboard.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "prescription"', 'APPPATH/Views/dashboard.php', 53)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Views/template.php(177): view('dashboard')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH/Controllers/Dashboard.php(29): view('template', [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 09:07:16 --> The route for "http://localhost:8080/index.php/dashboard" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/index.php/dashboard')
+ 2 SYSTEMPATH/Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/Dashboard.php(87): redirect('http://localhost:8080/index.php/dashboard')
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->reupload()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 09:07:39 --> The route for "http://localhost:8080/index.php/dashboard" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/index.php/dashboard')
+ 2 SYSTEMPATH/Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/Dashboard.php(87): redirect('http://localhost:8080/index.php/dashboard')
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->reupload()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 09:14:41 --> The route for "http://localhost:8080/index.php/dashboard" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/index.php/dashboard')
+ 2 SYSTEMPATH/Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/Dashboard.php(87): redirect('http://localhost:8080/index.php/dashboard')
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->reupload()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 09:15:22 --> The route for "http://localhost:8080/dashboard" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dashboard')
+ 2 SYSTEMPATH/Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/Dashboard.php(87): redirect('http://localhost:8080/dashboard')
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->reupload()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 09:17:41 --> The route for "http://localhost:8080/dashboard" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('http://localhost:8080/dashboard')
+ 2 SYSTEMPATH/Common.php(861): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 APPPATH/Controllers/Dashboard.php(87): redirect('http://localhost:8080/dashboard')
+ 4 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->reupload()
+ 5 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 6 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 09:24:18 --> The route for "/dashboard" cannot be found.
+in SYSTEMPATH/HTTP/RedirectResponse.php on line 60.
+ 1 SYSTEMPATH/HTTP/RedirectResponse.php(60): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('/dashboard')
+ 2 APPPATH/Controllers/Dashboard.php(88): CodeIgniter\HTTP\RedirectResponse->route(false)
+ 3 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->reupload()
+ 4 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 5 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 10:10:33 --> Undefined variable $pending
+in APPPATH/Views/dashboard.php on line 53.
+ 1 APPPATH/Views/dashboard.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pending', 'APPPATH/Views/dashboard.php', 53)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Views/template.php(177): view('dashboard')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH/Controllers/Dashboard.php(34): view('template', [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 10:11:05 --> Undefined variable $pending
+in APPPATH/Views/dashboard.php on line 53.
+ 1 APPPATH/Views/dashboard.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $pending', 'APPPATH/Views/dashboard.php', 53)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Views/template.php(177): view('dashboard')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH/Controllers/Dashboard.php(29): view('template', [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+ERROR - 2022-12-25 11:17:48 --> mysqli_sql_exception: Unknown column 'q.admin_id' in 'on clause' in /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php:292
+Stack trace:
+#0 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 /Users/saravanadev/amodha/inventory-management/app/Controllers/Dashboard.php(28): CodeIgniter\Database\BaseBuilder->get()
+#5 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+#6 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+#7 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /Users/saravanadev/amodha/inventory-management/public/index.php(67): CodeIgniter\CodeIgniter->run()
+#9 /Users/saravanadev/amodha/inventory-management/vendor/codeigniter4/framework/system/Commands/Server/rewrite.php(47): require_once('/Users/saravana...')
+#10 {main}
+CRITICAL - 2022-12-25 11:17:48 --> Unknown column 'q.admin_id' in 'on clause'
+in SYSTEMPATH/Database/MySQLi/Connection.php on line 292.
+ 1 SYSTEMPATH/Database/MySQLi/Connection.php(292): mysqli->query('SELECT *
+FROM `quotation` `q`
+JOIN `admin` `a` ON `a`.`admin_id`=`q`.`admin_id`', 0)
+ 2 SYSTEMPATH/Database/BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `quotation` `q`
+JOIN `admin` `a` ON `a`.`admin_id`=`q`.`admin_id`')
+ 3 SYSTEMPATH/Database/BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `quotation` `q`
+JOIN `admin` `a` ON `a`.`admin_id`=`q`.`admin_id`')
+ 4 SYSTEMPATH/Database/BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `quotation` `q`
+JOIN `admin` `a` ON `a`.`admin_id`=`q`.`admin_id`', [], false)
+ 5 APPPATH/Controllers/Dashboard.php(28): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+ 7 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+ 8 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 12:35:25 --> Undefined array key "intent"
+in APPPATH/Views/dashboard.php on line 162.
+ 1 APPPATH/Views/dashboard.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "intent"', 'APPPATH/Views/dashboard.php', 162)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Views/template.php(177): view('dashboard')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH/Controllers/Dashboard.php(30): view('template', [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 12:36:31 --> Undefined array key "intent"
+in APPPATH/Views/dashboard.php on line 162.
+ 1 APPPATH/Views/dashboard.php(162): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "intent"', 'APPPATH/Views/dashboard.php', 162)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Views/template.php(177): view('dashboard')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH/Controllers/Dashboard.php(31): view('template', [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
+CRITICAL - 2022-12-25 13:16:38 --> Undefined variable $invoice
+in APPPATH/Views/dashboard.php on line 190.
+ 1 APPPATH/Views/dashboard.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $invoice', 'APPPATH/Views/dashboard.php', 190)
+ 2 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/dashboard.php')
+ 3 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('dashboard', [], true)
+ 5 APPPATH/Views/template.php(177): view('dashboard')
+ 6 SYSTEMPATH/View/View.php(213): include('APPPATH/Views/template.php')
+ 7 SYSTEMPATH/View/View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 8 SYSTEMPATH/Common.php(1135): CodeIgniter\View\View->render('template', [], true)
+ 9 APPPATH/Controllers/Dashboard.php(36): view('template', [...])
+10 SYSTEMPATH/CodeIgniter.php(925): App\Controllers\Dashboard->index()
+11 SYSTEMPATH/CodeIgniter.php(480): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Dashboard))
+12 SYSTEMPATH/CodeIgniter.php(349): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+13 FCPATH/index.php(67): CodeIgniter\CodeIgniter->run()
+14 SYSTEMPATH/Commands/Server/rewrite.php(47): require_once('FCPATH/index.php')
